@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Игровые Аппараты на Деньги</title>
+</head>
+<body>
+    <h1>Игровые Аппараты на Деньги 🎰</h1>
+    <p>Крути классику и забирай куш!</p>
+    <button onclick="spin()">Спин!</button>
+    <p id="result">Старт!</p>
+    <script>
+        function spin() {
+            document.getElementById("result").innerText = Math.random() > 0.5 ? "Куш!" : "Ещё раз!";
+        }
+    </script>
+</body>
+</html>
